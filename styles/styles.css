@@ -1,0 +1,41 @@
+body {
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin-block: 0 1rem;
+}
+
+.formValidationError {
+  color: red;
+}
+
+.btn-send-message:disabled {
+  cursor: not-allowed;
+  background-color: #666666;
+}
+
+.btn-send-message > .fa-spinner {
+  margin-right: 10px;
+}
